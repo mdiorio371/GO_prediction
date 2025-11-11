@@ -23,8 +23,7 @@ Predict **Gene Ontology (GO)** terms (BP/CC/MF) for protein sequences in the tes
 
 > Files are from the Kaggle competition and EBI
 ## Quickstart 
-1. **Mount Drive & set paths**  
-   Save all competition files under `MyDrive/kaggle/CAFA6/`.
+1. **Mount Drive, set paths & check data structure**  
 
 2. **Build inputs**
    - **SIM**: Create `hits_full.m8` with DIAMOND (12-column outfmt).
