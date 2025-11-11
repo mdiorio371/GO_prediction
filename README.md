@@ -20,7 +20,7 @@ Follow my progress up the leaderboard (220/597)
 - `go-basic.obo` (GO DAG)
 - `IA.tsv` (information accretion weights)
 - `testsuperset.fasta`
-- (Optional) `goa_uniprot_all.gaf.gz` → filtered into `goa_test_pairs.tsv.gz` (NOT-free)
+- `goa_uniprot_all.gaf.gz` → filtered into `goa_test_pairs.tsv.gz` (NOT-free)
 
 > Files are from the Kaggle competition and EBI
 ## Quickstart 
