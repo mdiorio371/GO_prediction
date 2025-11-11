@@ -1,12 +1,13 @@
 # CAFA 6 — Protein Function Prediction (Kaggle)
 
 > **Status:** Active competition work-in-progress.  
-> **Model/code release:** The full pipeline and trained model will be made **public after the competition ends**. 
+> **Model/code release:** TThis repo only contains the basic setup. The full pipeline and trained model will be made **public after the competition ends**. 
 ## Overview
-This repo contains my end-to-end pipeline for the [**CAFA 6 – Protein Function Prediction** challenge](https://www.kaggle.com/competitions/cafa-6-protein-function-prediction/overview.)
-The task: predict **Gene Ontology (GO)** terms (BP/CC/MF) for protein sequences in the test superset.
+My starting strategy for the [**CAFA 6 – Protein Function Prediction** challenge](https://www.kaggle.com/competitions/cafa-6-protein-function-prediction/overview.)
+Predict **Gene Ontology (GO)** terms (BP/CC/MF) for protein sequences in the test superset. 
 
-**Setup**
+
+**Starting setup**
 - **Similarity transfer**: DIAMOND/MMseqs2 hits from test → training; transfer labels with identity×coverage weights.  
 - **GOA (NOT-free) overlap**: Direct mappings from GOA UniProt (negations removed).  
 - **Taxon-aware priors**: Smoothed counts (global + taxon) for recall on hard/novel cases.  
