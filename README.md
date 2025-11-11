@@ -1,7 +1,7 @@
 # CAFA 6 — Protein Function Prediction (Kaggle)
 
 > **Status:** Active competition work-in-progress.  
-> **Model/code release:** This repo only contains the basic setup. The full pipeline and trained model will be made **public after the competition ends**. 
+> **The full pipeline and trained model will be made public after the competition ends**. 
 ## Overview
 Predict **Gene Ontology (GO)** terms (BP/CC/MF) for protein sequences. 
 This repo outlines my starting strategy for the [**CAFA 6 – Protein Function Prediction** challenge](https://www.kaggle.com/competitions/cafa-6-protein-function-prediction/overview.). 
