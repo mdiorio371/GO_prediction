@@ -5,7 +5,7 @@
 ## Overview
 Predict **Gene Ontology (GO)** terms (BP/CC/MF) for protein sequences in the test superset. 
 My starting strategy for the [**CAFA 6 – Protein Function Prediction** challenge](https://www.kaggle.com/competitions/cafa-6-protein-function-prediction/overview.). 
-Follow my progress up the leaderboard (220/597)
+Follow my progress up the leaderboard ( 📈 220/597)
 
 
 **Starting setup**
