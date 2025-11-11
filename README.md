@@ -30,8 +30,8 @@ Follow my progress up the leaderboard (📈220/597📈)
    - **SIM**: Create `hits_full.m8` with DIAMOND (12-column outfmt).
    - **GOA pairs**: Stream-filter `goa_uniprot_all.gaf.gz` to `goa_test_pairs.tsv.gz` (NOT-free + valid GO).
 
-3. **Reload & verify**  
-   A single cell checks file health, counts eligible SIM queries, and loads caches.
+3. **Verify**  
+   Count eligible SIM queries and loads caches.
 
 4. **Local validation**  
    Create a 2.5k stratified **val split**, run SIM on the split, then evaluate IA-P/R/F1 to tune:
