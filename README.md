@@ -9,7 +9,7 @@ Follow my progress up the leaderboard (📈220/597📈)
 
 
 **Starting setup**
-- **Similarity transfer**: DIAMOND/MMseqs2 hits from test → training; transfer labels with identity×coverage weights.  
+- **Similarity transfer**: DIAMOND hits from test → training; transfer labels with identity×coverage weights.  
 - **GOA (NOT-free) overlap**: Direct mappings from GOA UniProt (negations removed).  
 - **Taxon-aware priors**: Smoothed counts (global + taxon) for recall on hard/novel cases.  
 - **Blending & caps**: `SIM ∩ GOA → SIM → GOA → prior`
